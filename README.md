@@ -7,7 +7,7 @@ This project demonstrates how to combine structured and unstructured data for ex
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Static HTML Report
 View the HTML version of the ETL pipeline here:  
 [AnilyticsETL Demo](https://bubblipathic.github.io/AnilyticsETL/AnilyticsETL.html)
 
