@@ -7,6 +7,12 @@ This project demonstrates how to combine structured and unstructured data for ex
 
 ---
 
+## 🌐 Live Demo
+View the HTML version of the ETL pipeline here:  
+[AnilyticsETL Demo](https://bubblipathic.github.io/AnilyticsETL/)
+
+---
+
 ## ⚙️ Features  
 - **Extract**  
   - Load datasets including anime information, user ratings, complete watch status, and detailed synopses.  
