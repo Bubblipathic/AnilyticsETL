@@ -62,8 +62,10 @@ Through this ETL pipeline, several analyses were performed on the anime datasets
 - Generated frequency counts and word clouds for visual insights.  
 
 **Findings:**  
-- Common words reflected recurring **themes and genres** such as "school," "battle," "friendship," and "power."  
-- Highlighted the narrative focus of top anime on **relationships, growth, and conflict**.  
+- School-related terms (“school,” “high,” “year”) are linked to higher audience engagement, making high school settings broadly appealing.
+- Epic narrative words (“one,” “all,” “must,” “become”) correlate with mainstream shounen popularity.
+
+![Synopsis Analysis Visual](/Screenshots/Screenshot1.png)  
 
 ---
 
@@ -73,9 +75,10 @@ Through this ETL pipeline, several analyses were performed on the anime datasets
 - Looked at how often viewers dropped shows across different genres.  
 
 **Findings:**  
-- Slice of Life and Romance genres tended to have **higher completion rates**, showing consistent audience dedication.  
-- Long-running genres like Shounen or Mecha had **higher drop rates**, possibly due to pacing or episode length.  
-- Genre popularity correlated with ratings but didn’t always align with viewer completion.  
+- Anime with the School + Comedy + Romance mix are 3× more likely to be dropped, suggesting oversaturation and cliché storylines reduce viewer retention.
+- Broad genres like Comedy, Adventure, and Fantasy alone have lower lift, suggesting they are safer but also more mainstream and competitive.
+
+![Genre and Drop Rate Analysis Visual](/Screenshots/Screenshot2.png)  
 
 ---
 
@@ -85,10 +88,12 @@ Through this ETL pipeline, several analyses were performed on the anime datasets
 - Generated association rules to find which anime are often watched or liked together.  
 
 **Findings:**  
-- Strong relationships between anime within the same **franchise or theme** (e.g., sequels and spin-offs).  
-- Certain genres clustered together in viewing habits (e.g., Action + Fantasy, Romance + Drama).  
+- Long-running classics often co-occur, making them a strong backbone for recommendation engines.
+- Users often consume entire franchise runs, so platforms should bundle or recommend sequels/spin-offs together.
+- There are some  unexpected overlap (sci-fi thriller + school romcom) → audiences may not be limited to a single genre and can be cross-promoted to diverse titles.
 - Insights suggest potential for **recommendation systems** based on frequent co-occurrence.  
 
----
+![Genre and Drop Rate Analysis Visual](/Screenshots/Screenshot3.png)  
+
 
 
